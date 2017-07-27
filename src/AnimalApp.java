@@ -17,6 +17,19 @@ public class AnimalApp {
 		print(b.eat());
 		print(b.sleep());
 		print(b.fly());
+		
+		Seal s = new Seal();
+		print(s.eat());
+		print(s.sleep());
+		print(s.swim());
+		print(s.slide());
+		
+		Dog d = new Dog();
+		print(d.eat());
+		print(d.sleep());
+		print(d.play());
+		print(d.kiss());
+		
 
 	}
 	private static void print(String s){
